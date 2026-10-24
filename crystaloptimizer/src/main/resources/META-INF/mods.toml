@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+issueTrackerURL="https://github.com/Bram1903/MarlowsCrystalOptimizer/issues"
+
+[[mods]]
+modId="marlowcrystal"
+version="${version}"
+displayName="Marlow's Crystal Optimizer (Forge 1.16.5)"
+displayURL="https://modrinth.com/mod/marlow-crystal-optimizer"
+authors="Bram, Marlow; Forge port"
+description='''
+Client-side optimistic End Crystal removal for Forge 1.16.5. The server still
+receives the normal attack and remains authoritative.
+'''
+
+[[dependencies.marlowcrystal]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.marlowcrystal]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="CLIENT"
